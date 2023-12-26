@@ -1,0 +1,215 @@
+html{
+    font-size: 20px;
+}
+body{
+    box-sizing: border-box;
+    background-color: #232D3F;
+    color: #d3cfdf ;
+    font-weight: 300;
+    line-height: 30px;
+    overflow-wrap: break-word;
+}
+
+/* text-selection-color start */
+::selection {
+    color: #f1f3f5;
+    background: #000000;
+    font-weight: bold;
+  }
+/* text-selection-color ending*/
+
+
+/* Web-links start */
+.nav-link{
+    color: white;
+
+}
+.nav-link:hover{
+    color: #ea9220;
+}
+/* Web-links start */
+
+
+
+.mypic img{
+    width:200px;
+    border-radius: 30%;
+    background-color: #232D3F;
+    
+}
+.mypic img:hover{
+    Transform:scale(1.3);
+    border: solid 3px rgba(120, 120, 120, 0.469);
+}
+
+/* about me start */
+.about-me{
+    padding: 40px 0px;
+  }
+/* about me ending */
+
+.carousel-item{
+    height: 450px;
+}
+
+/* headings-start */
+.project-title, .skills-heading, .heading-1, .heading-2, .heading-3, .heading-4, .heading-5{
+    font-family: Rubik Lines;
+    font-weight: 400;
+}
+.heading-1{
+    animation: headingAnim 3s linear infinite;
+}
+@keyframes headingAnim {
+    0%{
+        color: #FFE4E1;
+    }
+    100%{
+        color: #FFDAB9;
+    }
+}
+.heading-2{
+
+    animation: headingAnim1 5s linear infinite;
+}
+@keyframes headingAnim1 {
+    0%{
+        color: rgb(97, 130, 131);
+    }
+    100%{
+        color: #29ede0;
+    }
+}
+.heading-3{
+    color: CadetBlue;
+    animation: headingAnim2 5s linear infinite;
+}
+@keyframes headingAnim2 {
+    0%{
+        
+        color: #DEB887;
+    }
+    100%{
+        width: 100%;
+        color: #29ede0;
+    }
+}
+.heading-4{
+    color: CadetBlue;
+    animation: headingAnim3 5s linear infinite;
+}
+@keyframes headingAnim3 {
+    0%{
+        
+        color: #DEB887;
+    }
+    100%{
+        width: 100%;
+        color: #29ede0;
+    }
+}
+.heading-5{
+    color: CadetBlue;
+    animation: headingAnim4 5s linear infinite;
+}
+@keyframes headingAnim4 {
+    0%{
+        
+        color: #DAA520;
+    }
+    100%{
+        width: 100%;
+        color: FloralWhite;
+    }
+}
+/* headings-end */
+
+
+.image{
+    border-radius: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #A7D129;
+}
+.links a:hover{
+   color: #FFAC41;
+}
+.name{
+    color: #FFAC41;
+}
+.name{
+    color: CadetBlue;
+    animation: headingAnim-0 5s linear infinite;
+}
+@keyframes headingAnim-0 {
+    0%{
+        
+        color: #ea9220;
+    }
+    100%{
+        width: 100%;
+        color: #16dfd2;
+    }
+}
+
+/* Skills-section-start*/
+.skills-section{
+    font-family: sans-serif;
+}
+
+.skills {
+    text-align: right;
+    font-size: 15px;
+    color: white;
+    border-radius: 7px;
+    height: 7px;
+   
+}
+.skills-list>p{
+    padding-top: 20px;
+}
+  
+  .java {width: 85%; background-color: #0edb90;}
+  .spring {width: 70%; background-color: #1082df;}
+  .jdbc {width: 80%; background-color: #F5DEB3;}
+  .hibernate {width: 60%; background-color: #9932CC;}
+  .mysql {width: 75%; background-color: #DAA520;}
+  .html {width: 90%; background-color: #F0FFF0;}
+  .css {width: 80%; background-color: #F08080;}
+  .js {width: 60%; background-color: #20B2AA;}
+  .bootstrap {width: 60%; background-color: #CD853F;}
+  .thymeleaf {width: 60%; background-color: #EE82EE;}
+  
+/* Skills-section-ending*/
+
+
+/* Title Name */
+  .text-1 {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 35px;
+    letter-spacing: 4px;
+    
+    background: linear-gradient(90deg, #383939, #fff, #43bbb1);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(194, 194, 59, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+
+
+
+
